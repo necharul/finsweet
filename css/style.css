@@ -1,18 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     width: 1280px;
     margin: 0 auto;
 }
-.box{
-    display:flex;
+
+.box {
+    display: flex;
 }
-ul,ol{
-    list-style-type: none ;
+
+ul,
+ol {
+    list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -22,22 +27,25 @@ a{
 /* ======================
     navbar part start
 ========================= */
-nav{
+nav {
     background: #1C1E53;
     padding: 16px 0;
 }
-nav .logo{
+
+nav .logo {
     width: 20%;
     display: flex;
     align-items: center;
 }
+
 nav .nav-item {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-nav .nav-item ul{
+
+nav .nav-item ul {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -47,17 +55,21 @@ nav .nav-item ul{
     color: #BBBBCB;
     cursor: pointer;
 }
-nav .nav-item ul li{
+
+nav .nav-item ul li {
     transition: .4s;
 }
-nav .nav-item ul li:hover{
+
+nav .nav-item ul li:hover {
     color: #fff;
 }
-nav .button{
+
+nav .button {
     width: 20%;
     display: flex;
     justify-content: flex-end;
 }
+
 nav .button a {
     padding: 16px 48px;
     display: inline-block;
@@ -69,10 +81,12 @@ nav .button a {
     color: #fff;
     transition: .4s;
 }
-nav .button a:hover{
+
+nav .button a:hover {
     background: #BBBBCB;
     color: #1C1E53;
 }
+
 /* //////////////////////
     navbar part end
 //////////////////////// */
@@ -81,36 +95,42 @@ nav .button a:hover{
 /* ======================
     banner part start
 ========================= */
-.banner-part{
+.banner-part {
     background: #1C1E53;
     padding: 128px 0;
 }
-.banner-part .left{
+
+.banner-part .left {
     width: 50%;
 }
-.banner-part .left h1{
+
+.banner-part .left h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 54px;
     font-weight: 600;
     color: #fff;
     line-height: 74px;
 }
-.banner-part .left p{
+
+.banner-part .left p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color:#BBBBCB;
+    color: #BBBBCB;
     line-height: 28px;
     width: 562px;
     margin-top: 24px;
 }
-.banner-part .right{
+
+.banner-part .right {
     width: 50%;
 }
+
 .banner-part a {
     margin-top: 48px;
 }
-.banner-part .btn1{
+
+.banner-part .btn1 {
     padding: 16px 48px;
     display: inline-block;
     background: #FCD980;
@@ -121,7 +141,8 @@ nav .button a:hover{
     color: #1B1C2B;
     transition: .4s;
 }
-.banner-part .btn2{
+
+.banner-part .btn2 {
     padding: 16px 48px;
     display: inline-block;
     border-radius: 41px;
@@ -132,6 +153,7 @@ nav .button a:hover{
     transition: .4s;
     position: relative;
 }
+
 .banner-part .btn2 i {
     margin-left: 16px;
     position: absolute;
@@ -139,9 +161,11 @@ nav .button a:hover{
     right: 0;
     transform: translateY(-50%);
 }
-.banner-part .right img{
+
+.banner-part .right img {
     width: 100%;
 }
+
 /* //////////////////////
     banner part end
 //////////////////////// */
@@ -155,14 +179,17 @@ nav .button a:hover{
     background: #F4F6FC;
     padding: 128px 0;
 }
+
 .work-part .left {
     width: 40%;
 }
+
 .work-part .left h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
 }
+
 .work-part .left p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -172,28 +199,33 @@ nav .button a:hover{
     color: #282938;
     margin: 16px 0;
 }
+
 .work-part .left a {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #2405F2;
 }
+
 .work-part .right {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
 }
-.work-part .right .item{
+
+.work-part .right .item {
     width: 50%;
 }
+
 .work-part .right .item h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 500;
-    margin-top:16px ;
+    margin-top: 16px;
     margin-bottom: 8px;
 }
+
 .work-part .right .item p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -201,6 +233,7 @@ nav .button a:hover{
     line-height: 28px;
     width: 303px;
 }
+
 /* //////////////////////
     work part end
 //////////////////////// */
@@ -214,33 +247,43 @@ nav .button a:hover{
 .project-part {
     padding: 128px 0;
 }
-.project-part .title{
+
+.project-part .box {
+    justify-content: space-between;
+}
+
+.project-part .title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 64px;
 }
-.project-part .title h2{
+
+.project-part .title h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     color: #282938;
 }
-.project-part .title a{
+
+.project-part .title a {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #282938;
     align-self: center;
 }
+
 .project-part .left {
-    width: 60%;
+    width: 66%;
     position: relative;
     overflow: hidden;
 }
-.project-part .left img{
+
+.project-part .left img {
     width: 100%;
     display: block;
 }
+
 .project-part .left .overlay {
     width: 40%;
     height: 100%;
@@ -253,20 +296,24 @@ nav .button a:hover{
     align-items: end;
     padding-left: 48px;
 }
+
 .project-part .left:hover .overlay {
     left: 0;
 }
-.project-part .left .overlay .overlay-box{
+
+.project-part .left .overlay .overlay-box {
     padding-bottom: 76px;
 }
-.project-part .left .overlay .overlay-box h4{
+
+.project-part .left .overlay .overlay-box h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: #FFF;
     line-height: 36px;
 }
-.project-part .left .overlay .overlay-box p{
+
+.project-part .left .overlay .overlay-box p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -275,16 +322,207 @@ nav .button a:hover{
     margin-top: 16px;
     margin-bottom: 40px;
 }
-.project-part .left .overlay .overlay-box a{
+
+.project-part .left .overlay .overlay-box a {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #FCD980;
     line-height: 28px;
 }
+
 .project-part .right {
-    width: 40%;
+    width: 30%;
 }
+
+.project-part .right img {
+    width: 100%;
+}
+
+.project-part .right .img {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-part .right .img:last-child {
+    margin-top: 36px;
+}
+
+.project-part .right .img .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42), rgba(28, 30, 83, 1));
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: .4s;
+}
+
+.project-part .right .img:hover .overlay {
+    top: 0;
+}
+
 /* //////////////////////
     project part end
+//////////////////////// */
+
+
+/* ======================
+    faq part start
+========================= */
+.faq-part {
+    padding: 128px 0;
+}
+
+.faq-part .left {
+    width: 30%;
+}
+
+.faq-part .left h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    width: 328px;
+    margin-bottom: 16px;
+}
+
+.faq-part .left a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+}
+
+.faq-part .right {
+    width: 70%;
+}
+
+.faq-part .right .item {
+    display: flex;
+    padding: 32px 0;
+    border-bottom: 1px solid #ECECF1;
+}
+
+.faq-part .right .item:first-child {
+    padding-top: 0;
+}
+
+.faq-part .right .item:last-child {
+    border-bottom: 0;
+}
+
+.faq-part .right .item .item-left {
+    width: 10%;
+}
+
+.faq-part .right .item .item-left h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2405F2;
+}
+
+.faq-part .right .item .item-right {
+    width: 90%;
+    position: relative;
+}
+
+.faq-part .right .item .item-right h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.faq-part .right .item .item-right i {
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+
+.faq-part .right .item .item-right p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    width: 624px;
+    margin-top: 16px;
+}
+
+/* //////////////////////
+    faq part end
+//////////////////////// */
+
+
+/* ======================
+    contact part start
+========================= */
+.contact-part {
+
+}
+
+.contact-part .left {
+    width: 50%;
+    position: relative;
+}
+.contact-part .left img{
+    width: 100%;
+    display: block;
+}
+.contact-part .left .overlay{
+    width: 100%;
+    height: 100%;
+    background: #1c1e5480;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 96px;
+    box-sizing: border-box;
+}
+.contact-part .left .overlay h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.contact-part .left .overlay p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFF;
+}
+.contact-part .right {
+    width: 50%;
+    background: #1C1E53;
+    padding: 96px;
+    box-sizing: border-box;
+}
+.contact-part .right h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+.contact-part .right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+}
+.contact-part .right form{
+    width: 100%;
+}
+.contact-part .right form input{
+    width: 100%;
+}
+
+/* //////////////////////
+    contact part end
 //////////////////////// */
