@@ -516,13 +516,46 @@ nav .button a:hover {
     line-height: 28px;
     color: #F4F6FC;
 }
-.contact-part .right form{
-    width: 100%;
-}
-.contact-part .right form input{
-    width: 100%;
-}
 
+.contact-part .right input{
+    width: 100%;
+    padding: 18px 32px;
+    border: 2px solid #ffffff0d;
+    background: transparent;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.contact-part .right input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-part .right button{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px 0;
+    background: #FCD980;
+    border: 0;
+    border-radius: 41px;
+    margin-top: 23px;
+}
+.contact-part .right .link{
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+}
+.contact-part .right .link a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    
+}
 /* //////////////////////
     contact part end
 //////////////////////// */
