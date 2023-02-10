@@ -367,6 +367,124 @@ nav .button a:hover {
 //////////////////////// */
 
 
+
+/* ======================
+    contact part start
+========================= */
+.features-part{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.features-part .features-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    text-align: center;
+}
+.features-part .features-title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    text-align: center;
+    width: 630px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.features-part .features-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.features-part .features-content .item{
+    width: 32%;
+    background: white;
+    padding: 48px;
+    box-sizing: border-box;
+}
+.features-part .features-content .item h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.features-part .features-content .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    width: 324px;
+}
+/* //////////////////////
+    contact part end
+//////////////////////// */
+
+
+
+/* ======================
+    review part start
+========================= */
+.review-part{
+    padding: 128px 0;
+    background: #F9FBFD;
+}
+.review-part .left{
+    width: 30%;
+}
+.review-part .left h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 56px;
+}
+.review-part .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.review-part .right{
+    width: 70%;
+}
+.review-part .right h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 48px;
+}
+.review-part .right .user-details{
+    display: flex;
+    margin-top: 51px;
+}
+.review-part .right .user-details img{
+    margin-right: 14px;
+}
+.review-part .right .user-details .user-name p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+}
+.review-part .right .user-details .user-name span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #282938;
+}
+/* //////////////////////
+    review part end
+//////////////////////// */
+
+
+
 /* ======================
     faq part start
 ========================= */
@@ -458,9 +576,6 @@ nav .button a:hover {
 /* ======================
     contact part start
 ========================= */
-.contact-part {
-
-}
 
 .contact-part .left {
     width: 50%;
@@ -469,6 +584,7 @@ nav .button a:hover {
 .contact-part .left img{
     width: 100%;
     display: block;
+    height: 100%;
 }
 .contact-part .left .overlay{
     width: 100%;
@@ -517,6 +633,10 @@ nav .button a:hover {
     color: #F4F6FC;
 }
 
+.contact-part .right form{
+    margin-top: 40px;
+}
+
 .contact-part .right input{
     width: 100%;
     padding: 18px 32px;
@@ -558,4 +678,207 @@ nav .button a:hover {
 }
 /* //////////////////////
     contact part end
+//////////////////////// */
+
+
+/* ======================
+    blog part start
+========================= */
+.blog-part{
+    padding: 128px 0;
+}
+.blog-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom: 64px;
+}
+.blog-part .box{
+    justify-content: space-between;
+}
+.blog-part .item {
+    width: 32%;
+}
+.blog-part .item img{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+}
+.blog-part .item label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    
+}
+.blog-part .item h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 36px;
+    margin-top: 16px;
+}
+.blog-part .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.blog-part .item span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 28px;
+}
+/* //////////////////////
+    blog part end
+//////////////////////// */
+
+
+
+/* ======================
+    footer top part start
+========================= */
+.footer-top{
+    background: #1C1E53;
+    padding-top: 128px;
+}
+
+.footer-top .left{
+    width: 50%;
+}
+.footer-top .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F4F6FC;
+    line-height: 28px;
+    margin-top: 22px;
+    width: 399px;
+}
+
+.footer-top .right{
+    width: 50%;
+}
+
+
+.footer-top .right h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFF;
+}
+.footer-top .right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-top: 14px;
+    width: 399px;
+}
+
+.footer-top .right .socail-btn{
+    display: flex;
+}
+
+.footer-top .right .socail-btn i{
+    width: 16px;
+    height: 16px;
+    color: #FFF;
+    margin-right: 27px;
+    margin-top: 28px;
+}
+
+.footer-top .contact-info{
+    width: 35%;
+    background: #FCD980;
+    padding: 16px 37px;
+    display: flex;
+}
+
+.footer-top .contact-info .left-cnt{
+    width: 50%;
+}
+
+.footer-top .contact-info .left-cnt h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.contact-info .left-cnt .contact-mail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+}
+
+.footer-top .contact-info .right-cnt{
+    width: 50%;
+}
+
+.footer-top .contact-info .right-cnt h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.contact-info .right-cnt .contact-mail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+}
+/* //////////////////////
+footer top part end
+//////////////////////// */
+
+
+
+
+/* ======================
+    copyright part start
+========================= */
+.copyright-part{
+    padding: 32px 0;
+}
+
+.copyright-part .left{
+    width: 50%;
+}
+
+.copyright-part .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.copyright-part .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyright-part .right ul {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: flex-end;
+    column-gap: 32px;
+    color: #282938;
+    cursor: pointer;
+}
+/* //////////////////////
+   copyright part end
 //////////////////////// */
